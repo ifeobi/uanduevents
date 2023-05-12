@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import p1 from "../public/assets/images/1.jpg";
 import p2 from "../public/assets/images/2.jpg";
 import p3 from "../public/assets/images/3.jpg";
-import a1 from "../public/assets/images/a1.jpg";
+import a1 from "../public/assets/images/e1.jpg";
 import Image from "next/image";
 import Testimonial from "../components/Testimonial";
 import { Link } from "@mui/material";
