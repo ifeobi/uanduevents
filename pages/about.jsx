@@ -5,7 +5,6 @@ import fb from "../public/assets/images/fbb.png";
 import snap from "../public/assets/images/snap.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import PinterestIcon from "@mui/icons-material/Pinterest";
-import AnimatedDiv from "../components/AnimatedDiv";
 import Link from "next/link";
 
 function About() {
