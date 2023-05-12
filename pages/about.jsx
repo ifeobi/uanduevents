@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import a1 from "../public/assets/images/a1.jpg";
+import a1 from "../public/assets/images/about1.JPG";
 import fb from "../public/assets/images/fbb.png";
 import snap from "../public/assets/images/snap.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
