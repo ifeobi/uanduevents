@@ -274,13 +274,13 @@
   position: relative;
 }
 .servicebox2.a {
-  background-image: url("../public/assets/images/1.jpg");
+  background-image: url("../images/1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .servicebox2.b {
-  background-image: url("../public/assets/images/ct1.jpg");
+  background-image: url("../images/ct1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   /* background-position: bottom; */
@@ -327,7 +327,7 @@
 }
 
 .reviews-boxx {
-  background-image: url("../public/assets/images/fondo.jpg");
+  background-image: url("../images/fondo.jpg");
   width: 90vw;
   height: 80vh;
   display: flex;
@@ -593,7 +593,7 @@
       rgba(242, 243, 246, 0.81),
       rgba(246, 242, 217, 0.837)
     ),
-    url("../public/assets/images/e1.jpg");
+    url("../images/e1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 33%;
@@ -1133,6 +1133,8 @@
     right: 10px;
     top: 5px;
     color: white;
+  }
+  .menu-responsive svg {
     font-size: 50px;
   }
   .menu-header {
@@ -1164,8 +1166,11 @@
     top: 3%;
     right: 5%;
     color: var(--light);
-    font-size: 50px;
+    
     display: initial;
+  }
+  .ul-menu svg {
+    font-size: 50px;
   }
 
   .logo-header img {
@@ -1640,7 +1645,6 @@
   }
   .copyright a {
     color: black;
-
   }
 
   .inquire .btn {

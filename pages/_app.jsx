@@ -43,10 +43,6 @@ export default function App({ Component, pageProps }) {
     }
 
     return () => {
-      if (menuIcon) {
-        menuIcon.removeEventLisener("click", handleClick);
-      }
-
       if (ulMenu) {
         ulMenu.removeEventListener("click", handleReset);
       }
@@ -57,12 +53,15 @@ export default function App({ Component, pageProps }) {
     <>
       <section className="header-container">
         <div className={`responsive-header ${isMenuOpen ? "active" : ""}`}>
-          <MenuIcon
-            className={`menu-responsive ${isMenuOpen ? "active" : ""}`}
-          />
+          <div className={`menu-responsive ${isMenuOpen ? "active" : ""}`}>
+            <MenuIcon />
+          </div>
         </div>
         <div className={`menu-header ${isMenuOpen ? "active" : ""}`}>
-          <MenuIcon className="ul-menu" />
+          <div className="ul-menu">
+            <MenuIcon />
+          </div>
+
           <ul className="ul">
             <Link href="/" onClick={handleNavLinkClick}>
               <li>Home</li>
