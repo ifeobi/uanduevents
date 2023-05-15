@@ -274,13 +274,13 @@
   position: relative;
 }
 .servicebox2.a {
-  background-image: url("/assets/images/1.jpg");
+  background-image: url("/assets/images/1.6d29cc10.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .servicebox2.b {
-  background-image: url("/assets/images/ct1.jpg");
+  background-image: url("/assets/images/ct1.bedf3130.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   /* background-position: bottom; */
@@ -327,7 +327,7 @@
 }
 
 .reviews-boxx {
-  background-image: url("/assets/images/fondo.jpg");
+  background-image: url("/assets/images/fondo.d94d0aba.jpg");
   width: 90vw;
   height: 80vh;
   display: flex;
