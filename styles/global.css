@@ -274,13 +274,13 @@
   position: relative;
 }
 .servicebox2.a {
-  background-image: url("../images/1.jpg");
+  background-image: url("/assets/images/1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .servicebox2.b {
-  background-image: url("../images/ct1.jpg");
+  background-image: url("/assets/images/ct1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   /* background-position: bottom; */
@@ -327,7 +327,7 @@
 }
 
 .reviews-boxx {
-  background-image: url("../images/fondo.jpg");
+  background-image: url("/assets/images/fondo.jpg");
   width: 90vw;
   height: 80vh;
   display: flex;
