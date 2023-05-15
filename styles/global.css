@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Bell-MT";
-  src: url("../public/assets/fonts/Bell_MT.ttf") format("truetype");
+  src: url("/assets/fonts/Bell_MT.ttf") format("truetype");
 }
 @font-face {
   font-family: "Adelia";
-  src: url("../public/assets/fonts/adelia.ttf") format("truetype");
-  src: url("../public/assets/fonts/adelia.otf") format("opentype");
+  src: url("/assets/fonts/adelia.ttf") format("truetype");
+  src: url("/assets/fonts/adelia.otf") format("opentype");
 }
 
 :root {
