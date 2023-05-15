@@ -1,6 +1,6 @@
 import React from "react";
 import fb from "../public/assets/images/fbb.png";
-import bg from "../public/assets/images/fondo.jpg";
+import bg from "../public/assets/images/contactbg.png";
 import snap from "../public/assets/images/snap.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import PinterestIcon from "@mui/icons-material/Pinterest";
@@ -21,26 +21,28 @@ function Contact() {
       <div className="contact-body">
         <div className="contact-content">
           <Image src={bg} fill objectFit="cover" className="contact-bg" />
-          <Image src={location} className="location" />
-          <p>Dallas, Texas</p>
-          <Image src={mail} className="mail" />
-          <p>uandudesign@gmail.com</p>
-          <div className="footer-social contact">
-            <div className="socials">
-              <div>
-                <InstagramIcon style={{ color: "white" }} />
+          <div className="contact-text">
+            <Image src={location} className="location" />
+            <p>Dallas, Texas</p>
+            <Image src={mail} className="mail" />
+            <p>uandudesign@gmail.com</p>
+            <div className="footer-social contact">
+              <div className="socials">
+                <div>
+                  <InstagramIcon style={{ color: "white" }} />
+                </div>
+                <div>
+                  <Image src={fb} alt="" />
+                </div>
+                <div>
+                  <Image src={snap} alt="" />
+                </div>
+                <div>
+                  <PinterestIcon style={{ color: "white" }} />
+                </div>
               </div>
-              <div>
-                <Image src={fb} alt="" />
-              </div>
-              <div>
-                <Image src={snap} alt="" />
-              </div>
-              <div>
-                <PinterestIcon style={{ color: "white" }} />
-              </div>
+              <h3>FOLLOW US</h3>
             </div>
-            <h3>FOLLOW US</h3>
           </div>
         </div>
       </div>
