@@ -20,7 +20,7 @@ function Contact() {
 
       <div className="contact-body">
         <div className="contact-content">
-          <Image src={bg} fill objectFit="cover" className="contact-bg" />
+          <Image src={bg} fill className="contact-bg" />
           <div className="contact-text">
             <Image src={location} className="location" />
             <p>Dallas, Texas</p>

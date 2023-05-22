@@ -3,8 +3,8 @@ import p1 from "../public/assets/images/1.jpg";
 import p2 from "../public/assets/images/2.jpg";
 import p3 from "../public/assets/images/3.jpg";
 import a1 from "../public/assets/images/about1.png";
-import s1 from "../public/assets/images/U&U_events/v3.jpeg";
-import s2 from "../public/assets/images/U&U_events/v12.jpeg";
+import s1 from "../public/assets/images/U&U_events/v3.jpg";
+import s2 from "../public/assets/images/U&U_events/v12.jpg";
 import r1 from "../public/assets/images/fondo.jpg";
 import Image from "next/image";
 import Testimonial from "../components/Testimonial";
@@ -153,13 +153,13 @@ const Home = () => {
           <div className="service-box">
             <div className="servicebox1"></div>
             <div className="servicebox2 a">
-              <Image src={s1} fill objectFit="cover" />
+              <Image src={s1} fill />
               <div className="servicebox event">
                 <h2>Event Planning</h2>
               </div>
             </div>
             <div className="servicebox2 b">
-              <Image src={s2} fill objectFit="cover" />
+              <Image src={s2} fill />
               <div className="servicebox ct">
                 <h2>Christmas Tree Decor</h2>
               </div>
@@ -172,7 +172,7 @@ const Home = () => {
       <AnimatedDiv>
         <section className="reviews-container">
           <div className="reviews-boxx">
-          <Image src={r1} fill objectFit="cover"/>
+            <Image src={r1} fill objectFit="cover" />
             <div className="reviews-box box">
               <Testimonial />
             </div>

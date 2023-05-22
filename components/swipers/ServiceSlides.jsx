@@ -9,8 +9,8 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
 import Image from "next/image";
-import s1 from "../../public/assets/images/U&U_events/h1.jpeg";
-import s2 from "../../public/assets/images/U&U_events/h2.jpeg";
+import s1 from "../../public/assets/images/U&U_events/h1.jpg";
+import s2 from "../../public/assets/images/U&U_events/h2.jpg";
 import s3 from "../../public/assets/images/U&U_events/merged-ct.jpg";
 import s4 from "../../public/assets/images/U&U_events/merged-ct2.jpg";
 
