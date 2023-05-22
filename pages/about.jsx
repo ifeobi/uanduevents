@@ -2,9 +2,8 @@ import Image from "next/image";
 import React from "react";
 import a1 from "../public/assets/images/about1.png";
 import fb from "../public/assets/images/fbb.png";
-import snap from "../public/assets/images/snap.png";
+import tiktok from "../public/assets/images/tiktok.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import PinterestIcon from "@mui/icons-material/Pinterest";
 import Link from "next/link";
 
 function About() {
@@ -50,21 +49,32 @@ function About() {
             </p>
           </div>
           <div className="footer">
-            <Link href='/services' className="button">See serivces</Link>
+            <Link href="/services" className="button">
+              See serivces
+            </Link>
             <div className="footer-social">
               <h3>FOLLOW US</h3>
               <div className="socials">
                 <div>
-                  <InstagramIcon style={{ color: "white" }} />
+                  <a
+                    href="https://www.instagram.com/uandudesigns/"
+                    target="_blank"
+                  >
+                    <InstagramIcon style={{ color: "white" }} />
+                  </a>
                 </div>
                 <div>
-                  <Image src={fb} alt="" />
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100069349773537"
+                    target="_blank"
+                  >
+                    <Image src={fb} alt="" />
+                  </a>
                 </div>
                 <div>
-                  <Image src={snap} alt="" />
-                </div>
-                <div>
-                  <PinterestIcon style={{ color: "white" }} />
+                  <a href="https://vm.tiktok.com/ZTREdsYmy/" target="_blank">
+                    <Image src={tiktok} alt="" className="tiktok" />
+                  </a>
                 </div>
               </div>
             </div>

@@ -470,6 +470,11 @@
   border-radius: 5px;
 }
 
+.footer-social .socials a .tiktok {
+  width: 35px;
+  height: 35px;
+}
+
 .copyright {
   background: var(--lightbg);
   max-height: 40px;
@@ -630,7 +635,7 @@
   border-right: 3px solid var(--beige);
 }
 
-.contact-text {  
+.contact-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -767,7 +772,7 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -20%);
+  transform: translate(-50%, -40%);
   font-size: 40px;
 }
 
@@ -776,7 +781,7 @@
   position: absolute;
   width: 90%;
   right: 0;
-  transform: translate(-5%, -2%);
+  transform: translate(-5%, -1%);
   padding: 20px;
   background-color: var(--light);
   border-left: 3px solid var(--beige);
@@ -804,12 +809,14 @@
 }
 
 .container .tile:nth-child(4),
-.tile:nth-child(5) {
-  grid-column: span 3;
+.tile:nth-child(5),
+.tile:nth-child(6) {
+  grid-column: span 2;
+  grid-row: span 2;
 }
 
 .gallery-middle {
-  min-height: 330vh;
+  min-height: 350vh;
   background: var(--lightbg);
 }
 
@@ -843,7 +850,7 @@
 }
 @media (max-width: 1024px) {
   .gallery-middle {
-    min-height: 120vh;
+    min-height: 280vh;
   }
 }
 @media (max-device-width: 1024px) and (max-device-height: 600px) {
@@ -1006,7 +1013,7 @@
 
   /* Gallery */
   .gallery-middle {
-    min-height: 105vh;
+    min-height: calc(150vh);
   }
   .gallery-header {
     min-height: 20vh;
@@ -1041,7 +1048,6 @@
   .contact-header {
     min-height: 20vh;
   }
-
 }
 
 @media (max-width: 770px) {
@@ -1057,7 +1063,7 @@
 
   /* gallery page */
   .gallery-middle {
-    min-height: 110vh;
+    min-height: 160vh;
   }
 }
 
@@ -1123,6 +1129,10 @@
   .text h1 {
     font-size: 60px;
     margin-bottom: 25px;
+  }
+
+  .gallery-middle {
+    min-height: 700vh;
   }
   .gallery-body .container {
     display: block;
@@ -1352,9 +1362,9 @@
     font-size: 13px;
   }
 
-  .gallery-middle {
-    min-height: 520vh;
-  }
+  /* .gallery-middle {
+    min-height: 570vh;
+  } */
 
   .aboutpage-container.gallery {
     margin-bottom: 100px;
@@ -1426,7 +1436,8 @@
   .inquire.christmas .btn {
     font-size: 12px;
   }
-  .footer-social .socials img {
+
+  .footer-social .socials a img {
     height: 80%;
     width: auto;
   }
@@ -1570,7 +1581,7 @@
   }
 
   .gallery-middle {
-    min-height: 350vh;
+    min-height: 500vh;
   }
 }
 
@@ -1642,7 +1653,7 @@
     margin-bottom: 250px;
   }
   .gallery-middle {
-    min-height: 400vh;
+    min-height: 650vh;
   }
 
   .menu-responsive {
@@ -1664,5 +1675,9 @@
   .inquire .btn {
     font-size: 12px;
     padding: 5px 3px;
+  }
+
+  .gallery-middle {
+    min-height: 450vh;
   }
 }

@@ -4,9 +4,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Image from "next/image";
 import flogo from "../public/assets/images/flogo.png";
 import fb from "../public/assets/images/fbb.png";
-import snap from "../public/assets/images/snap.png";
+import tiktok from "../public/assets/images/tiktok.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import PinterestIcon from "@mui/icons-material/Pinterest";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
@@ -91,7 +90,9 @@ export default function App({ Component, pageProps }) {
           animate={{ x: 0 }}
           transition={{ type: "spring", duration: 1, bounce: 0.3 }}
         >
-          <Image src={hlogo} alt="" />
+          <Link href="/">
+            <Image src={hlogo} alt="" />
+          </Link>
         </motion.div>
       </section>
       <Component {...pageProps} />
@@ -152,16 +153,25 @@ export default function App({ Component, pageProps }) {
                 <h3>FOLLOW US</h3>
                 <div className="socials">
                   <div>
-                    <InstagramIcon style={{ color: "white" }} />
+                    <a
+                      href="https://www.instagram.com/uandudesigns/"
+                      target="_blank"
+                    >
+                      <InstagramIcon style={{ color: "white" }} />
+                    </a>
                   </div>
                   <div>
-                    <Image src={fb} alt="" />
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100069349773537"
+                      target="_blank"
+                    >
+                      <Image src={fb} alt="" />
+                    </a>
                   </div>
                   <div>
-                    <Image src={snap} alt="" />
-                  </div>
-                  <div>
-                    <PinterestIcon style={{ color: "white" }} />
+                    <a href="https://vm.tiktok.com/ZTREdsYmy/" target="_blank">
+                      <Image src={tiktok} alt="" className="tiktok" />
+                    </a>
                   </div>
                 </div>
               </div>
