@@ -274,7 +274,7 @@
   min-width: 30%;
   position: relative;
 }
-.servicebox2 img{
+.servicebox2 img {
   object-fit: cover;
 }
 
@@ -307,6 +307,10 @@
   align-items: center;
   justify-content: center;
 }
+.reviews-container img {
+  object-fit: cover;
+}
+
 .reviews-box.box {
   width: 50vw;
   height: 80vh;

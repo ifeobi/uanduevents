@@ -5,7 +5,7 @@ import p3 from "../public/assets/images/3.jpg";
 import a1 from "../public/assets/images/about1.png";
 import s1 from "../public/assets/images/U&U_events/v3.jpg";
 import s2 from "../public/assets/images/U&U_events/v12.jpg";
-import r1 from "../public/assets/images/fondo.jpg";
+import r1 from "../public/assets/images/U&U_events/h2-edit.png";
 import Image from "next/image";
 import Testimonial from "../components/Testimonial";
 import { Link } from "@mui/material";
@@ -172,7 +172,7 @@ const Home = () => {
       <AnimatedDiv>
         <section className="reviews-container">
           <div className="reviews-boxx">
-            <Image src={r1} fill objectFit="cover" />
+            <Image src={r1} fill />
             <div className="reviews-box box">
               <Testimonial />
             </div>
