@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import p1 from "../public/assets/images/1.jpg";
-import p2 from "../public/assets/images/2.jpg";
-import p3 from "../public/assets/images/3.jpg";
+import p1 from "../public/assets/images/U&U_events/h8.jpg";
+import p2 from "../public/assets/images/U&U_events/v2.jpg";
+import p3 from "../public/assets/images/U&U_events/v13.jpg";
 import a1 from "../public/assets/images/about1.png";
 import s1 from "../public/assets/images/U&U_events/v3.jpg";
 import s2 from "../public/assets/images/U&U_events/v12.jpg";
-import r1 from "../public/assets/images/U&U_events/h2-edit.png";
+import r1 from "../public/assets/images/U&U_events/h7-edit.jpg";
 import Image from "next/image";
 import Testimonial from "../components/Testimonial";
 import { Link } from "@mui/material";
@@ -54,67 +54,14 @@ const Home = () => {
         <section className="intro-content">
           <div className="intro-img a">
             <Image src={p1} alt="" className="img a" />
-            <div className="overlay a">
-              <div className="caption">
-                <h1 className="no">01</h1>
-                <br />
-                <h1 className="title">
-                  DREAMS <br />
-                  DO
-                  <br /> COME TRUE
-                </h1>
-                <br />
-                <p className="text">
-                  Whatever your wildest dream might be, rest assured that we can
-                  make it a reality; even if that might be having your own
-                  unicorn for the day!
-                </p>
-              </div>
-            </div>
           </div>
 
           <div className="intro-img b">
             <Image src={p2} alt="" className="img b" />
-            <div className="overlay b">
-              <div className="caption">
-                <h1 className="no">02 </h1>
-                <br />
-                <h1 className="title">
-                  CREATE
-                  <br />
-                  YOUR
-                  <br /> BEST <br />
-                  MEMORIES
-                </h1>
-                <br />
-                <p className="text">
-                  Every time you and your guests reminisce about your event (and
-                  us!), we only want you to have the most magical memories; it
-                  is a privilege for us to contribute to them!
-                </p>
-              </div>
-            </div>
           </div>
 
           <div className="intro-img c responsive">
             <Image src={p3} alt="" className="img c" />
-            <div className="overlay c">
-              <div className="caption">
-                <h1 className="no">03</h1>
-                <br />
-                <h1 className="title">
-                  PUT THE <br />
-                  BIGGEST SMILE
-                  <br /> ON YOUR FACE
-                </h1>
-                <br />
-                <p className="text">
-                  Nothing beats seeing the broadest of smiles on your face when
-                  you discover your event for the first time: your satisfaction
-                  will always come first!
-                </p>
-              </div>
-            </div>
           </div>
         </section>
       </AnimatedDiv>
@@ -144,7 +91,7 @@ const Home = () => {
           <div className="service-content">
             <h1>What we do</h1>
             <p>
-              Event Planning, Luxurious Home Styling and Christmas Tree Decor{" "}
+              Event Planning, Styling and Christmas Tree Decor{" "}
             </p>
           </div>
         </AnimatedDiv>

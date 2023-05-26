@@ -811,9 +811,19 @@
   grid-row: span 2;
 }
 
+.container .tile.ct:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
 .container .tile:nth-child(2),
 .tile:nth-child(3) {
   grid-column: span 2;
+}
+.container .tile.ct:nth-child(2),
+.tile.ct:nth-child(3) {
+  grid-column: span 2;
+  grid-row: span 2;
 }
 
 .container .tile:nth-child(4),
@@ -824,7 +834,7 @@
 }
 
 .gallery-middle {
-  min-height: 350vh;
+  min-height: 530vh;
   background: var(--lightbg);
 }
 
@@ -858,12 +868,22 @@
 }
 @media (max-width: 1024px) {
   .gallery-middle {
-    min-height: 280vh;
+    min-height: 200vh;
+  }
+}
+@media (max-device-width: 1024px) and (max-device-height: 1024px) {
+  .gallery-middle {
+    min-height: 250vh;
+  }
+}
+@media (max-device-width: 1280px) and (max-device-height: 800px) {
+  .gallery-middle {
+    min-height: 390vh;
   }
 }
 @media (max-device-width: 1024px) and (max-device-height: 600px) {
   .gallery-middle {
-    min-height: 330vh;
+    min-height: 420vh;
   }
 }
 
@@ -1021,7 +1041,7 @@
 
   /* Gallery */
   .gallery-middle {
-    min-height: calc(150vh);
+    min-height: calc(170vh);
   }
   .gallery-header {
     min-height: 20vh;
@@ -1071,7 +1091,7 @@
 
   /* gallery page */
   .gallery-middle {
-    min-height: 160vh;
+    min-height: 180vh;
   }
 }
 
@@ -1290,7 +1310,7 @@
     font-size: 30px;
   }
   .gallery-middle {
-    min-height: 800vh;
+    min-height: 1310vh;
   }
 
   .gallery-body {
@@ -1589,7 +1609,18 @@
   }
 
   .gallery-middle {
-    min-height: 500vh;
+    min-height: 755vh;
+  }
+}
+@media (max-width: 414px) {
+  .gallery-middle {
+    min-height: 790vh;
+  }
+
+}
+@media (max-width: 393px) {
+  .gallery-middle {
+    min-height: 785vh;
   }
 }
 
@@ -1661,12 +1692,19 @@
     margin-bottom: 250px;
   }
   .gallery-middle {
-    min-height: 650vh;
+    min-height: 950vh;
   }
 
   .menu-responsive {
     font-size: 45px;
   }
+}
+
+@media (max-width: 360px) {
+  .gallery-middle {
+    min-height: 850vh;
+  }
+
 }
 
 @media (max-width: 280px) {
@@ -1686,6 +1724,6 @@
   }
 
   .gallery-middle {
-    min-height: 450vh;
+    min-height: 700vh;
   }
 }

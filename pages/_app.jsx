@@ -65,14 +65,14 @@ export default function App({ Component, pageProps }) {
             <Link href="/" onClick={handleNavLinkClick}>
               <li>Home</li>
             </Link>
+            <Link href="/about" onClick={handleNavLinkClick}>
+              <li>About</li>
+            </Link>
             <Link href="/services" onClick={handleNavLinkClick}>
               <li>Services</li>
             </Link>
             <Link href="/gallery" onClick={handleNavLinkClick}>
               <li>Gallery</li>
-            </Link>
-            <Link href="/about" onClick={handleNavLinkClick}>
-              <li>About</li>
             </Link>
             <Link href="/faq" onClick={handleNavLinkClick}>
               <li>FAQ</li>
