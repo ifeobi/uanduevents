@@ -1234,6 +1234,7 @@
   /* Intro Grid*/
   .intro-content {
     min-height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   }
 
   .intro-img img {
