@@ -11,7 +11,12 @@ function Terms() {
         considered ‘reserved’ until a deposit Is received. Final invoice balance
         is due one day prior to the event. If payment is not made by prior to
         the event date, we reserved the right to refuse service and not deliver
-        service or items rentedo.
+        service or items rented.
+      </p>
+      <br />
+      <p>
+        If your event is booked less than 2 weeks of your event. Full payment is
+        needed to move forward with planning.
       </p>
       <br />
       <p>
@@ -19,16 +24,16 @@ function Terms() {
         your order the items are considered out of our inventory for your date
         and thus made unavailable to other potential customers. This ensures you
         will have all the items you need on the date you require them.
-        Cancellation requires a minimum of 14 days advance notice from the event
+        Cancellation requires minimum of 14 days advance notices from the event
         date.
       </p>
       <br />
       <b>Delivered Orders </b>
       <p>
-        Please note this is a one-day rental and the item will be picked up a
-        day after the event date. Failure to make the equipment available for
-        pickup will result in additional per day charges. We offer all of our
-        rental inventory on daily, weekly and monthly rates.
+        Please note this is a one-day rental and the item will be pickups a day
+        after the event date. Failure to make the equipment available for pickup
+        will result in additional per day charges. We offer all of our rental
+        inventory on daily, weekly and monthly rates.
       </p>
       <br />
       <b>Delivery and Pickup Rates</b>
@@ -46,10 +51,10 @@ function Terms() {
       <br />
       <b>Pickup Orders </b>
       <p>
-        All rates quoted are based on a 24 hour rental period per item; however,
+        All rates quoted are based on a 24-hour rental period per item; however,
         when agreed upon, we allow extra time for the customer to
         pick-up/drop-off at our location you may pick up party rentals one day
-        before your event and return the equipment on the next company 's
+        before your event and return the equipment on the next company's
         business day. Failure to return equipment timely, will result in
         additional per day charges. $100 security deposit is required for pickup
         orders. $100 security deposit will be refunded when the leased
@@ -70,10 +75,23 @@ function Terms() {
         rental equipment to ensure that all possible precautions are taken to
         avoid injury to people or damage to the leased equipment.
       </p>
-
+      <br />
+      <b>Rental/ Decor services</b>
+      <p>
+        Please have items like centerpieces, charger, linens & napkins pulled to
+        the side for us to pick up. If we have to pick up trash to take down our
+        services. There is going to be an additional charge of $200 of our time.
+      </p>
+      <br />
+      <b>Liability Waiver</b>
+      <p>
+        It is the responsibility of the person or organization renting this
+        rental equipment to ensure that all possible precautions are taken to
+        avoid injury to people or damage to the leased equipment.
+      </p>
       <br />
       <p>
-        Party equipment has known risks including, but not limited to, physical
+        Party equipment known risks including, but not limited to, physical
         injury from falling, slipping, crashing or colliding, emotional injury,
         paralysis, distress, damage or death to any participants. Lessee agrees
         to indemnify and hold BB Décor and Rental not responsible from any and
@@ -96,7 +114,7 @@ function Terms() {
       </p>
 
       <br />
-      <b>WEATHER CLAUSE</b>
+      <b>Weather Clause</b>
       <p>
         Balloons are a natural material and are 100% biodegradable. Although
         artist uses only quality balloons, some balloons may deflate sooner than
@@ -111,29 +129,26 @@ function Terms() {
       </p>
 
       <br />
-      <b>SAFETY</b>
+      <b>Safety</b>
       <p>
-        Latex and microfoil balloons pose no threat to humans,
-        wildlife, or the environment if handled responsibly. Artist does not
-        permit the release of any balloons provided by artist and shall not be
-        held liable for any damages resulting from unauthorized balloon
-        releases. Latex balloons used in decor are 100% biodegradable. Helium,
-        if inhaled, can be life threatening. Artist will not be liable for any
-        damages in the event that the client or attendees at the event inhale
-        helium. Children should have constant adult supervision while near
-        balloons. Broken or un-inflated balloons can cause harm and should be
-        disposed of immediately. Artist is not liable for any damages in the
-        event that the client or attendees at the event swallow balloons or
-        decorative items or parts thereof or in the event that balloons or parts
-        thereof burst and cause any damages including personal damages. Lights
-        are for indoor use only. Outdoor use of lights is not permitted unless
-        otherwise specified in writing. Artist uses exclusively LED candles and
-        professional adhesives (if applicable). Artist is not liable for
-        potential allergies or sensitivities possibly caused by provided
-        decorations, food, or personal care items.
+        Latex and microfoil balloons pose no threat to humans, wildlife, or the
+        environment if handled responsibly. Artist does not permit the release
+        of any balloons provided by artist and shall not be held liable for any
+        damages resulting from unauthorized balloon releases. Latex balloons
+        used in decor are 100% biodegradable. Helium, if inhaled, can be life
+        threatening. Artist will not be liable for any damages in the event that
+        the client or attendees at the event inhale helium. Children should have
+        constant adult supervision while near balloons. Broken or un-inflated
+        balloons can cause harm and should be disposed of immediately. Artist is
+        not liable for any damages in the event that the client or attendees at
+        the event swallow balloons or decorative items or parts thereof or in
+        the event that balloons or parts thereof burst and cause any damages
+        including personal damages. Lights are for indoor use only. Outdoor use
+        of lights is not permitted unless otherwise specified in writing. Artist
+        uses exclusively LED candles and professional adhesives (if applicable).
+        Artist is not liable for potential allergies or sensitivities possibly
+        caused by provided decorations, food, or personal care items.
       </p>
-
-     
     </main>
   );
 }

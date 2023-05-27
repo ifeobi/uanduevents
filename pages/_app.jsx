@@ -144,7 +144,7 @@ export default function App({ Component, pageProps }) {
                 <p>Contact</p>
               </Link>
               <Link href="/terms" style={{ color: "initial" }}>
-                <p style={{ fontSize: "12px" }}>Terms</p>
+                <p>Terms</p>
               </Link>
             </div>
             <div className="footer2 logo">

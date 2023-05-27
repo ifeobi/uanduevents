@@ -31,7 +31,9 @@ export default function Services() {
               </p>
             </div>
             <div className="footer">
-              <button>Book now</button>
+              <a className="btn" href="https://forms.gle/JS5jXMo12FkD2C5C9">
+                Book now
+              </a>
             </div>
           </div>
         </AnimatedDiv>
