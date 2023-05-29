@@ -12,13 +12,14 @@ import Image from "next/image";
 import s1 from "../../public/assets/images/U&U_events/h16.webp";
 import s2 from "../../public/assets/images/U&U_events/h1.jpg";
 import s3 from "../../public/assets/images/U&U_events/h10.webp";
-import s4 from "../../public/assets/images/U&U_events/h11.webp";
+import s4 from "../../public/assets/images/U&U_events/v37.jpeg";
 import s5 from "../../public/assets/images/U&U_events/v32.webp";
-import s6 from "../../public/assets/images/U&U_events/merged-ev.webp";
-import s7 from "../../public/assets/images/U&U_events/v27.webp";
-import s8 from "../../public/assets/images/U&U_events/v29.webp";
-import s9 from "../../public/assets/images/U&U_events/merged-ct.webp";
-import s10 from "../../public/assets/images/U&U_events/merged-ct2.webp";
+import s6 from "../../public/assets/images/U&U_events/v36.jpeg";
+import s7 from "../../public/assets/images/U&U_events/merged-ev.webp";
+import s8 from "../../public/assets/images/U&U_events/v27.webp";
+import s9 from "../../public/assets/images/U&U_events/v29.webp";
+import s10 from "../../public/assets/images/U&U_events/merged-ct.webp";
+import s11 from "../../public/assets/images/U&U_events/merged-ct2.webp";
 
 function ServiceSlides() {
   return (
@@ -59,6 +60,9 @@ function ServiceSlides() {
       </SwiperSlide>
       <SwiperSlide>
         <Image src={s10} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image src={s11} />
       </SwiperSlide>
     </Swiper>
   );
