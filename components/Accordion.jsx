@@ -55,7 +55,12 @@ export default function FaqAccordion() {
           </AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
-          <p>5k and up for the entire event.</p>
+          <p>
+            Budget varies with the nature and size of the event but the
+            avearge event that is not a wedding is about $5,000. We work with
+            different budgets. Book a consultation for details on how we can
+            make your budget work for you.
+          </p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
@@ -126,8 +131,8 @@ export default function FaqAccordion() {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Half deposit upon invoice and balance is due 2 weeks prior to the event
-            date.
+            Half deposit upon invoice and balance is due 2 weeks prior to the
+            event date.
           </p>
         </AccordionItemPanel>
       </AccordionItem>

@@ -135,7 +135,7 @@ export default function App({ Component, pageProps }) {
             </a>
           </div>
           <div className="inquire christmas">
-            <h1>Christmas tree decor!</h1>
+            <h1>Book your Christmas tree decor!</h1>
             <a
               href="
               https://forms.gle/nzgaL4Ac6ojLaGoT7"
@@ -156,14 +156,17 @@ export default function App({ Component, pageProps }) {
               <Link href="/" style={{ color: "initial" }}>
                 <p>Home</p>
               </Link>
-              <Link href="/gallery" style={{ color: "initial" }}>
-                <p>Gallery</p>
-              </Link>
-              <Link href="/about" style={{ color: "initial" }}>
+              <Link href="/About" style={{ color: "initial" }}>
                 <p>About</p>
               </Link>
               <Link href="/services" style={{ color: "initial" }}>
                 <p>Services</p>
+              </Link>
+              <Link href="/gallery" style={{ color: "initial" }}>
+                <p>Gallery</p>
+              </Link>
+              <Link href="/faq" style={{ color: "initial" }}>
+                <p>FAQ</p>
               </Link>
               <Link href="/contact" style={{ color: "initial" }}>
                 <p>Contact</p>

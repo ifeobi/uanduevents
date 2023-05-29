@@ -17,7 +17,6 @@
   --menubg: #c0ab66c6;
 }
 
-
 * {
   font-family: "Bell-MT", sans-serif;
   margin: 0;
@@ -351,35 +350,29 @@
 }
 
 .footer-container {
-  min-height: 100vh;
+  min-height: 120vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .inquire-container {
   display: flex;
+  gap: 10px;
+  flex-direction: column;
 }
 
 .inquire {
   max-height: 110px;
-  height: 110px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 10px 50px;
   background: var(--beige);
   color: var(--light);
 }
-.inquire.event {
-  flex: 2;
-}
-.inquire.christmas {
-  flex: 1;
-  padding: 0 20px;
-}
 
 .inquire.christmas h1 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .inquire h1 {
@@ -862,6 +855,15 @@
   color: var(--beige);
 }
 
+@media (max-width: 1024px) {
+  .servicebox h2 {
+    font-size: 18px;
+  }
+  .servicebox.ct h2 {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 1280px) {
   .about {
     width: 100%;
@@ -976,28 +978,14 @@
   }
 
   /* footer */
-  .inquire {
-    padding: 0;
-  }
 
   .inquire-container {
     flex-direction: column;
     gap: 5px;
     /* margin-bottom: 50px; */
   }
-  .inquire.event {
-    flex: 1.5 1;
-    padding: 0 10px;
-  }
-  .inquire h1 {
-    font-size: 25px;
-  }
-  .inquire.christmas {
-    padding: 0 10px;
-  }
-  .inquire.christmas .btn {
-    padding: 5px;
-    font-size: 15px;
+  .inquire {
+    padding: 5px 10px;
   }
 
   .footer-container {
@@ -1155,6 +1143,12 @@
   }
   .gallery-body .container .tile {
     margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .servicebox.ct h2 {
+    font-size: 18px;
   }
 }
 
@@ -1435,9 +1429,6 @@
   .inquire.christmas h1 {
     font-size: 15px;
   }
-  .inquire.christmas .btn {
-    font-size: 12px;
-  }
 
   .footer-social .socials a img {
     height: 80%;
@@ -1593,6 +1584,16 @@
   }
 }
 
+@media (max-width: 390px) {
+  .inquire.christmas h1 {
+    font-size: 13px;
+  }
+
+  .inquire.christmas .btn {
+    font-size: 13px;
+  }
+}
+
 @media (max-width: 375px) {
   .reviews-boxx {
     height: 80vh;
@@ -1629,6 +1630,7 @@
 
   .servicebox.ct h2 {
     font-size: 10px;
+    text-align: center;
   }
 
   .aboutpage-container {
@@ -1690,4 +1692,18 @@
     min-height: 100vh;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
   }
+  .inquire.christmas {
+    padding: 15px 5px;
+  }
+  .inquire.christmas h1 {
+    font-size: 11.5px;
+  }
+  .inquire.christmas .btn {
+    font-size: 9px;
+    padding: 5px;
+  }
+  .css-i4bv87-MuiSvgIcon-root {
+    display: none;
+  }
+
 }
