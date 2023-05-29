@@ -9,6 +9,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
+import Head from "next/head";
 
 // import { Analytics } from "@vercel/analytics/react";
 
@@ -50,6 +51,30 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta
+          name="description"
+          content="Creating extraordinary experiences and transforming celebrations with impeccable event planning, exquisite styling, and enchanting Christmas tree decor."
+        />
+      </Head>
       <section className="header-container">
         <div className={`responsive-header ${isMenuOpen ? "active" : ""}`}>
           <div className={`menu-responsive ${isMenuOpen ? "active" : ""}`}>

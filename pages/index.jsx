@@ -10,6 +10,7 @@ import Image from "next/image";
 import Testimonial from "../components/Testimonial";
 import { Link } from "@mui/material";
 import AnimatedDiv from "../components/AnimatedDiv";
+import Head from "next/head";
 
 function addHoverClass(element) {
   const handleMouseEnter = () => {
@@ -50,6 +51,9 @@ const Home = () => {
 
   return (
     <main>
+      <Head>
+        <title>Home - U&U Designs</title>
+      </Head>
       <AnimatedDiv>
         <section className="intro-content">
           <div className="intro-img a">
@@ -90,9 +94,7 @@ const Home = () => {
         <AnimatedDiv>
           <div className="service-content">
             <h1>What we do</h1>
-            <p>
-              Event Planning, Styling and Christmas Tree Decor{" "}
-            </p>
+            <p>Event Planning, Styling and Christmas Tree Decor </p>
           </div>
         </AnimatedDiv>
 
@@ -101,15 +103,23 @@ const Home = () => {
             <div className="servicebox1"></div>
             <div className="servicebox2 a">
               <Image src={s1} fill />
-              <div className="servicebox event">
+              <Link
+                href="/services"
+                className="servicebox event"
+                style={{ textDecoration: "none" }}
+              >
                 <h2>Event Planning</h2>
-              </div>
+              </Link>
             </div>
             <div className="servicebox2 b">
               <Image src={s2} fill />
-              <div className="servicebox ct">
+              <Link
+                href="/services"
+                className="servicebox ct"
+                style={{ textDecoration: "none" }}
+              >
                 <h2>Christmas Tree Decor</h2>
-              </div>
+              </Link>
             </div>
             <div className="servicebox1"></div>
           </div>
