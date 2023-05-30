@@ -585,9 +585,6 @@
   align-items: center;
   justify-content: center;
   gap: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 33%;
   padding: 50px 0;
   position: relative;
 }
@@ -895,6 +892,21 @@
   .gallery-middle {
     display: none;
   }
+
+  .contact-body {
+    position: relative;
+    transform: unset;
+    border-left: unset;
+    border-right: unset;
+    width: unset;
+  }
+  .contact-content {
+    border-left: 3px solid var(--beige);
+    border-right: 3px solid var(--beige);
+  }
+  .about-middle.contact {
+    display: none;
+  }
 }
 
 @media (max-width: 912px) {
@@ -1061,9 +1073,7 @@
   }
 
   /* Contact page */
-  .about-middle.contact {
-    min-height: 100vh;
-  }
+
   .contact-header {
     min-height: 20vh;
   }
@@ -1115,10 +1125,6 @@
   }
   .about-dp img {
     height: 70vh;
-  }
-
-  .about-middle.contact {
-    min-height: 80vh;
   }
 
   .footer-container {
@@ -1705,5 +1711,4 @@
   .css-i4bv87-MuiSvgIcon-root {
     display: none;
   }
-
 }
