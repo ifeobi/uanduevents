@@ -156,7 +156,7 @@ export default function App({ Component, pageProps }) {
               <Link href="/" style={{ color: "initial" }}>
                 <p>Home</p>
               </Link>
-              <Link href="/About" style={{ color: "initial" }}>
+              <Link href="/about" style={{ color: "initial" }}>
                 <p>About</p>
               </Link>
               <Link href="/services" style={{ color: "initial" }}>
