@@ -126,7 +126,7 @@ export default function App({ Component, pageProps }) {
           <div className="inquire event">
             <h1>Book your event now!</h1>
             <a
-              href="https://forms.gle/JS5jXMo12FkD2C5C9"
+              href="https://form.jotform.com/231856720789065"
               className="btn"
               target="_blank"
               rel="noopener"
@@ -138,7 +138,7 @@ export default function App({ Component, pageProps }) {
             <h1>Book your Christmas tree decor!</h1>
             <a
               href="
-              https://forms.gle/nzgaL4Ac6ojLaGoT7"
+              https://form.jotform.com/231856886086573"
               className="btn c"
               target="_blank"
               rel="noopener"
