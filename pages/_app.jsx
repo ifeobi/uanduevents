@@ -1,4 +1,4 @@
-import "../styles/global.css";
+import "../styles/global.scss";
 import hlogo from "../public/assets/images/team.png";
 import MenuIcon from "@mui/icons-material/Menu";
 import Image from "next/image";
@@ -105,7 +105,10 @@ export default function App({ Component, pageProps }) {
             <Link href="/contact" onClick={handleNavLinkClick}>
               <li>Contact</li>
             </Link>
-            <li>Blog</li>
+
+            <Link href="/blog" onClick={handleNavLinkClick}>
+              <li>Blog</li>
+            </Link>
           </ul>
         </div>
 
