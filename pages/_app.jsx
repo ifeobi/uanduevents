@@ -226,11 +226,11 @@ export default function App({ Component, pageProps }) {
         <div className="copyright">
           <a
             style={{ color: "initial" }}
-            href="https://stripe-tec.com"
+            href="https://ifesportfolio.vercel.app/"
             target="_blank"
             rel="noopener"
           >
-            U&U Designs Copyright &#169; 2023 | Developed by Stripe-tec
+            U&U Designs Copyright &#169; 2023 | Developed by Ife Obijiofor
           </a>
         </div>
       </footer>
